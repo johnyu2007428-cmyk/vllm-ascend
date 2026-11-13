@@ -9,7 +9,7 @@ variants:
     description: ModelSlim INT8 W8A8 checkpoint for one Atlas 800 A3 node (16× Ascend 910C), using DP2+TP8. Requires --quantization ascend.
     supported_hardware:
       - ascend_910c
-    tp:
+    tp: 
       ascend_910c: 8
     min_vllm_version: 0.23.0
     extra_args:
